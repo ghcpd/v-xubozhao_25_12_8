@@ -1,0 +1,16 @@
+# Upgraded dependencies - Python 3.10-3.13 compatible
+# Last updated: December 8, 2025
+
+# Data science and analysis
+numpy==2.1.0  # Full Python 3.10-3.13 support; modern NumPy with significant performance improvements
+pandas==2.2.3  # Full Python 3.10-3.13 support, significant performance improvements
+scipy==1.14.1  # Latest stable; full Python 3.10-3.13 support, security patches included
+scikit-learn==1.5.2  # Latest stable; modern ML library with Python 3.10-3.13 support
+matplotlib==3.9.2  # Latest stable; full Python 3.10-3.13 support, improved rendering
+
+# API and server
+fastapi==0.115.0  # Latest stable; extensive security fixes, better dependency injection
+uvicorn==0.30.0  # Latest stable ASGI server; improved async handling
+
+# Testing and quality
+pytest==8.3.2  # Latest stable; robust testing framework, extensive plugin ecosystem
