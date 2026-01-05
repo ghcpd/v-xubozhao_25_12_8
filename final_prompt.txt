@@ -1,0 +1,31 @@
+📘 Task Description
+
+You are maintaining an old backend analytics service.
+The project uses outdated and potentially insecure dependencies listed in its requirements_old.txt file.
+Your mission is to upgrade dependencies AND create a fully automated pytest-based validation pipeline.
+
+🧩 Your Tasks
+
+1. **Audit dependencies**
+   - Identify deprecated, insecure, or Python-incompatible versions.
+   - Detect major-version breaking changes.
+
+2. **Upgrade dependencies**
+   - Produce a modern, stable, Python-3.10+ compatible requirements.txt.
+   - Ensure the updated environment is reproducible.
+
+3. **Generate a Before → After dependency version diff**
+   - Must include upgrade justification when relevant.
+
+4. **Create a complete automated testing environment**
+   You MUST generate:
+   - setup.sh → create venv + install dependencies  
+   - run_tests.sh → run pytest automatically  
+   - tests/test_runtime.py → minimal runtime functionality tests  
+   - A minimal demo script or test ensuring key libs operate normally  
+   ALL tests must use **pytest**, NOT custom frameworks.
+
+5. **Model MUST run pytest itself**
+   After generating the files, you MUST:
+   - Capture real pytest output
+   - Return the final report
